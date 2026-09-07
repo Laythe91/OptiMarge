@@ -195,7 +195,7 @@ st.markdown(
             🛒 OptiMarge Food
         </div>
         <div class="optimarge-subtitle">
-            Comparateur intelligent de prix fournisseurs pour mon pecore Mathieu de la part de Laythe
+            Comparateur intelligent de prix fournisseurs pour mon PÉCORE Mathieu de la part de Laythe
         </div>
     </div>
     """,
