@@ -149,26 +149,28 @@ st.markdown(
        MOBILE
        ------------------------------------------------------- */
 
-    @media (max-width: 700px) {
+   @media (max-width: 700px) {
 
+        /* Augmenter le padding-top pour dégager la barre Streamlit */
         .block-container {
-            padding-top: 1.6rem !important;
+            padding-top: 3.5rem !important; /* Passe de 1.6rem à 3.5rem */
             padding-left: 0.75rem !important;
             padding-right: 0.75rem !important;
         }
 
         .optimarge-header {
-            padding-top: 0.2rem;
+            padding-top: 0.5rem;
+            margin-top: 0rem;
         }
 
         .optimarge-title {
-            font-size: 2rem;
-            line-height: 1.2;
-            letter-spacing: -0.025em;
+            font-size: 1.8rem; /* Légèrement réduit pour éviter les retours à la ligne tronqués */
+            line-height: 1.25;
+            letter-spacing: -0.02em;
         }
 
         .optimarge-subtitle {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
         [data-testid="stMetricValue"] {
